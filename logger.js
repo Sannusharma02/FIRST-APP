@@ -1,12 +1,12 @@
-const EventEmitter = require('events');
+// const EventEmitter = require('events');
 
-var url ='http://myLogger.io/log';
+// var url ='http://myLogger.io/log';
 
-class Logger extends EventEmitter{
-    log(message){
-        console.log(message);
-        this.emit('messageLogged',{id: 1, url: 'http://'});
-    }
-}
+// class Logger extends EventEmitter{
+//     log(message){
+//         console.log(message);
+//         this.emit('messageLogged',{id: 1, url: 'http://'});
+//     }
+// }
 
-module.exports = Logger;
+// module.exports = Logger;

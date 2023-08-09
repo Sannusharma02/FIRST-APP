@@ -1,0 +1,6 @@
+npm i node
+npm i -g npm 
+npm i node
+npm i underscore
+npm i mongoose
+npm i jshint --save-dev
